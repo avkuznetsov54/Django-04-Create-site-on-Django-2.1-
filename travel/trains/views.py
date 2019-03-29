@@ -16,7 +16,7 @@ def home(request):
 
     trains = Train.objects.all()
 
-    paginator = Paginator(trains, 2)
+    paginator = Paginator(trains, 10)
     page = request.GET.get('page')
     trains = paginator.get_page(page)
 
