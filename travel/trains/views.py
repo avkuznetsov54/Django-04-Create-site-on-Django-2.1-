@@ -5,6 +5,7 @@ from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.messages.views import SuccessMessageMixin
 from django.contrib import messages
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Train
 from .forms import TrainForm
@@ -23,7 +24,7 @@ def home(request):
     return render(request, 'trains/home.html', {'objects_list': trains})
 
 
-class TrainCreateView(SuccessMessageMixin, CreateView):
+class TrainCreateView(SuccessMessageMixin, LoginRequiredMixin, CreateView):
     login_url = '/login/'
     model = Train
     form_class = TrainForm
@@ -38,7 +39,7 @@ class TrainDetailView(DetailView):
     template_name = 'trains/detail.html'
 
 
-class TrainUpdateView(SuccessMessageMixin, UpdateView):
+class TrainUpdateView(SuccessMessageMixin, LoginRequiredMixin, UpdateView):
     login_url = '/login/'
     model = Train
     form_class = TrainForm
@@ -47,7 +48,7 @@ class TrainUpdateView(SuccessMessageMixin, UpdateView):
     success_message = 'Поезд успешно отредактирован!'
 
 
-class TrainDeleteView(DeleteView):
+class TrainDeleteView(LoginRequiredMixin, DeleteView):
     login_url = '/login/'
     model = Train
     # template_name = 'trains/delete.html'

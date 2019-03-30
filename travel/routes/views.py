@@ -1,6 +1,8 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.urls import reverse_lazy
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 from django.views.generic.edit import DeleteView
@@ -40,6 +42,7 @@ def get_graph():
     return graph
 
 
+# @login_required(login_url='/login/')
 def home(request):
     form = RouteForm()
     return render(request, 'routes/home.html', {'form': form})
@@ -183,10 +186,10 @@ class RouteListView(ListView):
     template_name = 'routes/list.html'
 
 
-class RouteDeleteView(DeleteView):
+class RouteDeleteView(LoginRequiredMixin, DeleteView):
     model = Route
     success_url = reverse_lazy('home')
-    # login_url = '/login/'
+    login_url = '/login/'
 
     def get(self, request, *args, **kwargs):
         messages.success(request, 'Маршрут успешно удален!')
