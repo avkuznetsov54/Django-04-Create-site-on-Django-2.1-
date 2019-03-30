@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffd4f9d-b495-499a-a4ef-c5bca849560e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/aleksandrkuznecov.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/routes/templates/routes/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/routes/templates/routes/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/routes/templates/routes/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/routes/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/routes/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/routes/templates/routes/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel/routes/templates/routes/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/routes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/routes/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/trains/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/trains/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/trains/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/trains/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/travel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travel/travel/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,86 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/routes/models.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/travel/trains/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/routes/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/routes/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travel/routes/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/routes/templates/routes/create.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/routes/templates/routes/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/travel/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/travel/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -134,7 +60,6 @@
         <option value="$PROJECT_DIR$/travel/cities/templates/cities/delete.html" />
         <option value="$PROJECT_DIR$/travel/cities/templates/cities/home.html" />
         <option value="$PROJECT_DIR$/travel/cities/views.py" />
-        <option value="$PROJECT_DIR$/travel/trains/admin.py" />
         <option value="$PROJECT_DIR$/travel/trains/models.py" />
         <option value="$PROJECT_DIR$/travel/trains/templates/cities/home.html" />
         <option value="$PROJECT_DIR$/travel/trains/forms.py" />
@@ -147,12 +72,15 @@
         <option value="$PROJECT_DIR$/travel/routes/models.py" />
         <option value="$PROJECT_DIR$/travel/routes/admin.py" />
         <option value="$PROJECT_DIR$/travel/trains/views.py" />
-        <option value="$PROJECT_DIR$/travel/templates/base.html" />
         <option value="$PROJECT_DIR$/travel/routes/templates/routes/home.html" />
-        <option value="$PROJECT_DIR$/travel/travel/urls.py" />
         <option value="$PROJECT_DIR$/travel/routes/forms.py" />
         <option value="$PROJECT_DIR$/travel/routes/templates/routes/create.html" />
         <option value="$PROJECT_DIR$/travel/routes/views.py" />
+        <option value="$PROJECT_DIR$/travel/templates/base.html" />
+        <option value="$PROJECT_DIR$/travel/routes/templates/routes/detail.html" />
+        <option value="$PROJECT_DIR$/travel/travel/urls.py" />
+        <option value="$PROJECT_DIR$/travel/routes/templates/routes/list.html" />
+        <option value="$PROJECT_DIR$/travel/trains/admin.py" />
       </list>
     </option>
   </component>
@@ -184,28 +112,7 @@
               <item name="Django #04 (Create site on Django 2.1)" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django #04 (Create site on Django 2.1)" type="462c0819:PsiDirectoryNode" />
               <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django #04 (Create site on Django 2.1)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django #04 (Create site on Django 2.1)" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django #04 (Create site on Django 2.1)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django #04 (Create site on Django 2.1)" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django #04 (Create site on Django 2.1)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django #04 (Create site on Django 2.1)" type="462c0819:PsiDirectoryNode" />
-              <item name="travel" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="trains" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django #04 (Create site on Django 2.1)" type="b2602c69:ProjectViewProjectNode" />
@@ -259,12 +166,12 @@
       <workItem from="1553601298918" duration="14729000" />
       <workItem from="1553694226310" duration="3991000" />
       <workItem from="1553787992188" duration="6791000" />
-      <workItem from="1553864109334" duration="8986000" />
+      <workItem from="1553864109334" duration="12740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36524000" />
+    <option name="totallyTimeSpent" value="40278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -486,16 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/trains/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel/trains/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -513,10 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/travel/routes/templates/routes/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+        <state relative-caret-position="306">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -530,26 +427,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/routes/templates/routes/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travel/travel/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/travel/routes/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/routes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="182" column="4" selection-start-line="182" selection-start-column="4" selection-end-line="182" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -561,12 +454,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travel/routes/views.py">
+    <entry file="file://$PROJECT_DIR$/travel/travel/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/routes/templates/routes/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#491#497#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/routes/templates/routes/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#549#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel/trains/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
